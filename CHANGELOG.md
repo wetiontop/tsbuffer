@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## [2.2.0] - 2022-02-26
+### Added
+- Support `keyof`
+- Support using type alias in `Pick` and `Omit`
+- Support `Pick<Intersection>` and `Omit<Intersection>`
+
+## [2.1.7] - 2022-01-06
+### Fixed
+- `cjs` to `js` to fix `react-scripts@5`
+
 ## [2.1.5] - 2021-11-26
 ### Fixed
 - Remove unused code from `Base64Util` (Thanks [@JasonZhou](https://github.com/zzyss86))
